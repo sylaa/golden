@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Oswald:wght@200;400&display=swap");
+
+$font-title: "Oswald", sans-serif;
+$font-subtitle: "Ephesis", cursive;
+$font-text: "Oswald", sans-serif;
+$transition: all 0.5s;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.splash {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  background-image: url('https://i.postimg.cc/zGQ2ysJZ/gadgets-336635-1920.jpg');
+  // background-position: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navigation{
+  padding: 12px 0; 
+}
+
+.navigation ul{
+  margin-left: 500px;
+  padding: 0;
+}
+
+.navigation ul li{
+  display: inline-block;
+  margin-right: 60px;
+  transition: $transition;
+  padding-right: 0%;
+}
+
+.navigation ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: $font-title;
+}
+
+.navigation ul li a:hover{
+  color: yellow;  
+  border-radius: 0px;
+  
+}
+
+.navigation h1 {
+  font-family: $font-subtitle;
+  color: yellow;
+}
+
+.page-intro{
+  position: absolute;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 60px 0;
+  max-width: 980px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.page-intro .page-title{
+  font-family: $font-subtitle;
+  color: white;
+  font-size: 40px;
+  text-shadow:  2px -2px 12px #333;
+  text-align: center;
+}
+
+.page-intro .page-subtitle {
+  font-family: $font-title;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+
+.btn {
+  position: absolute;
+  padding: 18px 24px 18px 24px;
+  font-size: 16px;
+  background-color: #f1c40f;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: $font-title;
+  top: 100%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}

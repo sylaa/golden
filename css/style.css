@@ -1,2 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Oswald:wght@200;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.splash {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  background-image: url("https://i.postimg.cc/zGQ2ysJZ/gadgets-336635-1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navigation {
+  padding: 12px 0;
+}
+
+.navigation ul {
+  margin-left: 500px;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-right: 60px;
+  transition: all 0.5s;
+  padding-right: 0%;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.navigation ul li a:hover {
+  color: yellow;
+  border-radius: 0px;
+}
+
+.navigation h1 {
+  font-family: "Ephesis", cursive;
+  color: yellow;
+}
+
+.page-intro {
+  position: absolute;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 60px 0;
+  max-width: 980px;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.page-intro .page-title {
+  font-family: "Ephesis", cursive;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px -2px 12px #333;
+  text-align: center;
+}
+
+.page-intro .page-subtitle {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+
+.btn {
+  position: absolute;
+  padding: 18px 24px 18px 24px;
+  font-size: 16px;
+  background-color: #f1c40f;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  top: 100%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSx1R0FBWTtBQU9aO0VBQ0UsU0FBUztFQUNULFVBQVU7RUFDVixzQkFBc0I7QUNMeEI7O0FEUUE7RUFDRSxzQkFBc0I7QUNMeEI7O0FEUUE7RUFDRSxrQkFBa0I7RUFDbEIsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixlQUFlO0VBQ2YsOEVBQThFO0VBRTlFLDJCQUEyQjtFQUMzQiw0QkFBNEI7RUFDNUIsc0JBQXNCO0VBQ3RCLGFBQWE7QUNOZjs7QURTQTtFQUNFLGVBQWU7QUNOakI7O0FEU0E7RUFDRSxrQkFBa0I7RUFDbEIsVUFBVTtBQ05aOztBRFNBO0VBQ0UscUJBQXFCO0VBQ3JCLGtCQUFrQjtFQUNsQixvQkFyQ21CO0VBc0NuQixpQkFBaUI7QUNObkI7O0FEU0E7RUFDRSxxQkFBcUI7RUFDckIsWUFBWTtFQUNaLGlDQS9DK0I7QUN5Q2pDOztBRFNBO0VBQ0UsYUFBYTtFQUNiLGtCQUFrQjtBQ05wQjs7QURVQTtFQUNFLCtCQXhEZ0M7RUF5RGhDLGFBQWE7QUNQZjs7QURVQTtFQUNFLGtCQUFrQjtFQUNsQixjQUFjO0VBQ2QsZUFBZTtFQUNmLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsUUFBUTtFQUNSLFNBQVM7RUFDVCxrQkFBa0I7RUFDbEIsZ0NBQWdDO0FDUGxDOztBRFVBO0VBQ0UsK0JBekVnQztFQTBFaEMsWUFBWTtFQUNaLGVBQWU7RUFDZiwrQkFBZ0M7RUFDaEMsa0JBQWtCO0FDUHBCOztBRFVBO0VBQ0UsaUNBbEYrQjtFQW1GL0IsWUFBWTtFQUNaLGtCQUFrQjtFQUNsQixlQUFlO0VBQ2YsbUJBQW1CO0FDUHJCOztBRFVBO0VBQ0Usa0JBQWtCO0VBQ2xCLDRCQUE0QjtFQUM1QixlQUFlO0VBQ2YseUJBQXlCO0VBQ3pCLFlBQVk7RUFDWixtQkFBbUI7RUFDbkIscUJBQXFCO0VBQ3JCLGlDQWpHK0I7RUFrRy9CLFNBQVM7RUFDVCxTQUFTO0VBQ1Qsa0JBQWtCO0VBQ2xCLGdDQUFnQztBQ1BsQyIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
