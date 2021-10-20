@@ -30,6 +30,7 @@ $transition: all 0.5s;
 
 .navigation{
   padding: 12px 0; 
+  // display: inline-block;
 }
 
 .navigation ul{
@@ -232,6 +233,20 @@ h4{
     transition: all 1s;
   }
  
+  @media (max-width: 767px) {
+    
+    .navigation ul{
+      margin-left: 100px;
+    }
+
+    .navigation ul li {
+      margin-right: 30px;
+    }
+
+    .feature i {
+      margin-left: 45%;
+    }
+  }
 
   
 
