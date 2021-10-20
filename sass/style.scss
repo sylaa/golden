@@ -194,4 +194,45 @@ h4{
   .portfolio .row{
     margin-top: 20px;
   }
+
+  footer{
+    margin:25px;
+  }
   
+  .page-footer p {
+    font-family: $font-title;
+    color: gray;
+    padding-top: 10px;
+    padding-left: 110px;
+    display: inline-block;
+  }
+
+  .page-footer .social-links {
+    list-style-type: none;
+    margin-left: 160px;
+}
+
+  .page-footer .social-links li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    transition: 1s all;
+    font-size: 0;
+  }
+
+  .page-footer ul i{
+    font-size: 20px;
+    margin-top: 10px;
+    background: #353b48;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 1s;
+  }
+ 
+
+  
+
+ 
