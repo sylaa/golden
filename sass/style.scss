@@ -103,3 +103,61 @@ $transition: all 0.5s;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
+
+section {
+  padding: 60px 0;
+}
+
+.services .container, .portfolio .container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h3 {
+  font-family: $font-title;
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
+h4{
+  font-family: 'Andada Pro', serif;
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.feature{
+  margin-top: 30px;
+}
+
+.feature i{
+  color: #f1c40f;
+  text-align: center;
+  // display: inline-block;
+  margin-left: 40%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 2px solid #f1c40f;
+  border-radius: 50%;
+}
+
+.feature h3{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.feature p{
+  text-align: center;
+  font-family: 'Andada Pro', serif;
+  color: grey;
+}
+
+  
